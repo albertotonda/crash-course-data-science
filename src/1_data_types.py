@@ -16,6 +16,10 @@ if __name__ == "__main__" :
     print("integer_b:", integer_b)
     print(f"integer_a: {integer_a}")
     
+    float_a = 32.12
+    float_b = 7.000000000000002
+    print(float_b)
+    
     dictionary_a = dict()
     dictionary_b = {}
     
@@ -24,8 +28,10 @@ if __name__ == "__main__" :
     
     print(dictionary_a)
     
+    # what's happening here? is this the expected behavior?
     list_a = [1, 2, 3]
     list_b = list_a
     list_b[0] += 1
     print(list_a)
     print(list_b)
+    # try modifying the the assignment with list_b = list(list_a)
